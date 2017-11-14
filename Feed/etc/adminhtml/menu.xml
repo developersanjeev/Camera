@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Camera_Feed::parent" title="Camera Feed" module="Camera_Feed" sortOrder="100" resource="Camera_Feed::parent"/>
+        <!--<add id="Camera_Feed::index" title="Feed Index" module="Camera_Feed" sortOrder="10" action="feed/index" resource="Camera_Feed::index" parent="Camera_Feed::parent"/>-->
+		<add id="Camera_Feed::camerafeed" title="Camera Feed" module="Camera_Feed" sortOrder="20" parent="Camera_Feed::parent" action="feed/camerafeed" resource="Camera_Feed::camerafeed"/>
+        <add id="Camera_Feed::cameratiming" title="Camera Timing" module="Camera_Feed" sortOrder="30" parent="Camera_Feed::parent" action="feed/cameratiming" resource="Camera_Feed::cameratiming"/>
+
+    </menu>
+</config>

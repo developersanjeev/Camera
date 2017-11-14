@@ -1,6 +1,6 @@
 <?php
 
-namespace Camera\Feed\Controller\Indexess;
+namespace Camera\Feed\Controller\Index;
 
 class Index extends \Magento\Framework\App\Action\Action
 {
